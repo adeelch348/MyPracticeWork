@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
+    "lint-husky": "prettier --check .",
+    "lint": "eslint . & npm run lint-husky",
     "fix": "eslint --fix *.js",
     "format": "prettier -w ."
   },
   "author": "adeel",
   "license": "ISC",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run format & git add -A ."
+    }
+  },
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.13",
@@ -23,6 +29,7 @@
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.2",
     "prettier": "^2.4.1"
   }
 }

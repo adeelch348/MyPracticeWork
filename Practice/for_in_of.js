@@ -1,8 +1,8 @@
-arr = ["Adeel","Nabeel","Huzaifa"];
+arr = ["Adeel", "Nabeel", "Huzaifa"];
 
 // for_in loop used with iterable objects
-for(let name in arr){
-    console.log(arr[name]);
+for (let name in arr) {
+  console.log(arr[name]);
 }
 
 //We can use the for_in loop to loop through all the characters.
@@ -16,12 +16,10 @@ str = "My name is adeel";
 //     console.log(name);
 // }
 
-
 // for(let char of str){
 //     console.log(char);
 // }
 
-
 for (var i = 0; i < str.length; i++) {
-    console.log(str.charAt(i));
-  }
+  console.log(str.charAt(i));
+}

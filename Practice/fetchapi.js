@@ -1,7 +1,6 @@
-console.log('This is Fetch API Example with promises');
+console.log("This is Fetch API Example with promises");
 
-
-let Fetchdata = document.getElementById('fetchdata')
+let Fetchdata = document.getElementById("fetchdata");
 
 //Fetching Data with Get Method
 // function getData(){
@@ -17,21 +16,21 @@ let Fetchdata = document.getElementById('fetchdata')
 
 // document.write(Fetchdata).innerHTML =  getData();
 
-function postData(){
-    url = "http://dummy.restapiexample.com/api/v1/create";
-    data = '{"name":"cdsffsadfDwe22eSF","salary":"123","age":"23"}';
-    param = {
-        method : "post",
-        header: {
-            'Content-Type' : 'application/json'
-        },
-        body: JSON.parse(data)
-    }
-    fetch(url,param).then(res=>res.json())
-    .then(data=> console.log(data))
+function postData() {
+  url = "http://dummy.restapiexample.com/api/v1/create";
+  data = '{"name":"cdsffsadfDwe22eSF","salary":"123","age":"23"}';
+  param = {
+    method: "post",
+    header: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.parse(data),
+  };
+  fetch(url, param)
+    .then((res) => res.json())
+    .then((data) => console.log(data));
 }
 
 // getData();
 
 // postData();
-

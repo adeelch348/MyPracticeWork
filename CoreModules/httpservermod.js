@@ -4,7 +4,7 @@ const fs = require("fs");
 const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
-  res.setHeader('Content-Type', 'text/html');
+  res.setHeader("Content-Type", "text/html");
   console.log(req.url);
   if (req.url == "/") {
     res.statusCode = 200;
@@ -16,9 +16,9 @@ const server = http.createServer((req, res) => {
     res.statusCode = 200;
     const data = fs.readFileSync("index.html");
     res.end(data.toString());
-  } else{
-      res.statusCode = 404;
-      res.end("Page Not Found");
+  } else {
+    res.statusCode = 404;
+    res.end("Page Not Found");
   }
 });
 

@@ -18,5 +18,6 @@ module.exports = {
     "no-plusplus": "off",
     "no-unused-vars": "off",
     "no-use-before-define": "off",
+    "func-names": "off",
   },
 };
