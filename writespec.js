@@ -18,17 +18,17 @@ function makeDir(directory) {
   // }
 }
 
-function writeSpec(directory, dirPath, specification = "") {
-  if (dirPath == true) {
-    fs.writeFile(directory / dirPath, specification, (error) => {
+function writeSpec(directory, dirpath, spec = "") {
+  if (dirPath === true) {
+    fs.writeFile(directory / dirpath, spec, (error) => {
       if (error) throw error;
     });
   }
 }
 
-function readSpec(dirPath) {
-  if (dirPath === true) {
-    fs.readFile(dirPath, "utf8", (error, data) => {
+function readSpec(dirpath) {
+  if (dirpath === true) {
+    fs.readFile(dirpath, "utf8", (error, data) => {
       if (error) throw error;
       console.log(data.toString());
     });

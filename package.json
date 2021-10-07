@@ -7,7 +7,8 @@
     "lint-husky": "prettier --check .",
     "lint": "eslint . & npm run lint-husky",
     "fix": "eslint --fix *.js",
-    "format": "prettier -w ."
+    "format": "prettier -w .",
+    "dev": "nodemon"
   },
   "author": "adeel",
   "license": "ISC",

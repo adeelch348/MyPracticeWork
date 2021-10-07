@@ -19,5 +19,6 @@ module.exports = {
     "no-unused-vars": "off",
     "no-use-before-define": "off",
     "func-names": "off",
+    "consistent-return": "off",
   },
 };
