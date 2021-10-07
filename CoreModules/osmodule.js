@@ -1,5 +1,5 @@
-const { constants } = require('crypto');
-const os = require('os')
+const { constants } = require("crypto");
+const os = require("os");
 
 // console.log(os.EOL);
 // console.log(os.arch());
@@ -18,10 +18,9 @@ const os = require('os')
 // console.log(os.setPriority([4,6]))
 // console.log(os.tmpdir())
 // console.log(os.totalmem())
-console.log(os.type())
-console.log(os.uptime())
+console.log(os.type());
+console.log(os.uptime());
 // console.log(os.userInfo())
 // console.log(os.GetVersionExW())
-console.log(os.constants.dlopen)
-console.log(os.constants.priority)
-
+console.log(os.constants.dlopen);
+console.log(os.constants.priority);

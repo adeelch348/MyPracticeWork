@@ -1,5 +1,5 @@
-let arr = ["Adeel","Nabeel","Huzaifa"];
+let arr = ["Adeel", "Nabeel", "Huzaifa"];
 
-arr.forEach((a , i)=>{
-    console.log(i + ":" + a);
-})
+arr.forEach((a, i) => {
+  console.log(i + ":" + a);
+});

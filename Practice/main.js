@@ -1,14 +1,14 @@
-import {message, user ,test} from "./library.js";
+import { message, user, test } from "./library.js";
 
 // import * as adeel from "./library.js";
 
-import {default as fn} from "./library.js";
+import { default as fn } from "./library.js";
 
 fn();
 
 console.log(message);
 
-console.log(user("JS"))
+console.log(user("JS"));
 // console.log(adeel.message);
 
 // document.body.innerHTML = adeel.message;
@@ -16,7 +16,4 @@ console.log(user("JS"))
 
 // document.body.innerHTML = a;
 
-
 // const obj = new adeel.test();
-
-

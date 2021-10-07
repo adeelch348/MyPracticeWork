@@ -1,10 +1,9 @@
-const fs = require('fs');
-
+const fs = require("fs");
 
 // fs.mkdir('adeel',(err) => {
 //     console.log("folder created");
 // });
- 
+
 // open function with filename, file opening mode and callback function
 // fs.open('task_of_os/file.txt', 'w', function (err, file) {
 //   if (err) throw err;
@@ -18,7 +17,7 @@ const fs = require('fs');
 
 // fs.appendFile("adeel/bio.txt","Please Read JS ES6 features",
 // (err)=>{
-//        console.log("Data Appended Successfully"); 
+//        console.log("Data Appended Successfully");
 // });
 
 // fs.readFile("adeel/bio.txt","utf-8",(err,data)=>{

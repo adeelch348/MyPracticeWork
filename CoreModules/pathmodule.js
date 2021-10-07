@@ -1,9 +1,9 @@
-const { extname } = require('path');
-const path = require('path');
+const { extname } = require("path");
+const path = require("path");
 
 // console.log(path.basename('C:\\temp\\myfile.html'))
-console.log(path.win32.basename('C:\\temp\\myfile.html'))
-console.log(path.win32.basename('C:\\temp\\myfile.html','.html'))
+console.log(path.win32.basename("C:\\temp\\myfile.html"));
+console.log(path.win32.basename("C:\\temp\\myfile.html", ".html"));
 // console.log(path.delimiter)
 // console.log(process.env.PATH.split(path.delimiter))
 // console.log(path.dirname('C:\\temp\\myfile'))
@@ -14,10 +14,9 @@ console.log(path.win32.basename('C:\\temp\\myfile.html','.html'))
 //     name: 'myfile',
 //     ext: '.txt'
 // }))
-console.log(path.join('adeel','chaudhary','nodejs','is',"easy"))
+console.log(path.join("adeel", "chaudhary", "nodejs", "is", "easy"));
 
-console.log(path.normalize('/foo/bar//baz/asdf/quux/..'))
+console.log(path.normalize("/foo/bar//baz/asdf/quux/.."));
 // console.log(path.parse('/foo/bar//baz/asdf/quux/myfile.html'))
 // console.log(path.posix)
-console.log(path.relative("from","to"))
-
+console.log(path.relative("from", "to"));

@@ -1,20 +1,17 @@
-export default function( ){
-    console.log("Adeel");
+export default function () {
+  console.log("Adeel");
 }
-
 
 let message = "ES6 Modules";
 
 function user(name) {
-    return `${name} is best to learn`;
+  return `${name} is best to learn`;
 }
-
 
 class test {
-    constructor() {
-        console.log("Constructor Method");
-    }
+  constructor() {
+    console.log("Constructor Method");
+  }
 }
 
-
-export { message, user, test }
+export { message, user, test };
